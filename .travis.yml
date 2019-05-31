@@ -9,7 +9,7 @@ services:
 
 env:
   global:
-    - IMAGE_NAME=diuis/docker-debian9-wget
+    - IMAGE_NAME=diuis/docker-ubuntu-wget
 
 script:
   - docker build . -t "$IMAGE_NAME"
